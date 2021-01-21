@@ -1,0 +1,41 @@
+.sidebar {
+  flex: 0.3;
+}
+
+.sidebar__container {
+  width: 300px;
+  min-height: 400px;
+  background-color: #1a202c !important;
+  margin-left: 8rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 796px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 938px) {
+  .sidebar__container {
+    margin-right: 2rem;
+    margin-left: 1rem;
+    width: 200px;
+    min-height: 330px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .sidebar__container {
+    margin-right: 2rem;
+    margin-left: 1rem;
+  }
+}

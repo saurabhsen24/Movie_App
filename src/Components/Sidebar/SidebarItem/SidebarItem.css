@@ -1,0 +1,60 @@
+.sidebarItem {
+  margin-top: 2rem;
+}
+
+.sidebarItem > h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.sidebarItem__link {
+  text-decoration: none;
+}
+
+.MuiCardContent-root {
+  padding: 0px !important;
+}
+
+.sidebarItem__show {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 20px;
+  background-color: #2d3748;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sidebarItem__hide {
+  display: none;
+}
+
+.sidebarItem__movie {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebarItem__movie > img {
+  width: 50px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.sidebarItem__movie > p {
+  color: #edf2f7;
+  font-weight: 600;
+  padding: 10px;
+  flex: 1;
+}
+
+.sidebarItem__rating {
+  color: #f6e05e !important;
+  flex: 0 !important;
+  float: right;
+}

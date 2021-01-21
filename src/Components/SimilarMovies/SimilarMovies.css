@@ -1,0 +1,4 @@
+.similarMovies {
+  display: flex;
+  flex-wrap: wrap;
+}

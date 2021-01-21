@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 140px;
+  background-color: white;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #1a202c;
+}
+
+.header__logo {
+  background-color: #f6e05e;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 0 solid #e2e8f0;
+  cursor: pointer;
+}
+
+.header__chip {
+  background-color: #1a202c;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header__chip:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1262px) {
+  .header {
+    padding: 10px;
+  }
+}
