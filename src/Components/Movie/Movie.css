@@ -52,3 +52,9 @@
 .movie:hover > .movie__image {
   box-shadow: 0px 5px 3px -2px #2d3748;
 }
+
+@media (max-width: 375px) {
+  .movie {
+    margin-left: 50px;
+  }
+}

@@ -7,6 +7,7 @@ import NotFound from "./Components/NotFound/NotFound";
 import Sidebar from './Components/Sidebar/Sidebar';
 
 function App() {
+
   return (
     <Router>
       <div className="app">
